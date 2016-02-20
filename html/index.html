@@ -7,6 +7,8 @@
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 		<link rel="stylesheet" href="stylesheet.css">
 		<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+		<link href='https://rawgit.com/HubSpot/odometer/master/themes/odometer-theme-default.css' rel='stylesheet' type='text/css'>
+		<script src="https://cdn.rawgit.com/HubSpot/odometer/v0.4.6/odometer.min.js"></script>
 	</head>
 	<body>
 		<div class="menu pure-g">
@@ -23,9 +25,22 @@
 		<div class="piggybank">
 			<span class="saved">You are 20€ of reaching your goal!</span>
 			<div class="piggy">
-				<span class="amount">50% complete!</span>
+				<div class="amount"><span class="odometer odometer-theme-car odometer-animating-up odometer-animating" id="value">0</span>% complete!</div>
 			</div>
 			<span class="goal">Your goal: <b>20.000€</b></span>
 		</div>
+		<script>
+
+			var el = document.querySelector('#value');
+
+			od = new Odometer({
+			  el: el,
+			  value: 35,
+
+			  // Any option (other than auto and selector) can be passed in here
+			  format: '',
+			});
+
+		</script>
 	</body>
 </head>

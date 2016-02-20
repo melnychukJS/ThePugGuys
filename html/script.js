@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function(){
 				label: "Spendings",
 				fillColor: "#299c97",
 				strokeColor: "#f5f5f5",
-        pointColor: "#066c68",
-        pointStrokeColor: "#fff",
-        pointHighlightFill: "#fff",
-        pointHighlightStroke: "rgba(220,220,220,1)",
-        data: [0.1, 1.5, 0.3, 0.3, 10]
+		        pointColor: "#066c68",
+		        pointStrokeColor: "#fff",
+		        pointHighlightFill: "#fff",
+		        pointHighlightStroke: "rgba(220,220,220,1)",
+		        data: [0.1, 1.5, 0.3, 0.3, 10]
 			}
 		]
 	}
