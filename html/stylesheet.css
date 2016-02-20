@@ -1,0 +1,41 @@
+.menu a{
+	text-decoration: none;
+	color: black;
+}
+.menu a:visited{
+	text-decoration: none;
+	color: black;
+}
+.menu{
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+.menu > .selected{
+	font-weight: bold;
+}
+.piggybank > .piggy{
+	margin-left: 10px;
+	margin-top: 50px;
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	-webkit-border-radius: 99999px;
+	text-align: center;
+	font-size: 40px;
+}
+.piggy > .amount{
+	position: relative;
+	top: 40%;
+
+}
+.piggybank > .saved{
+	float: right;
+	margin-right: 10px;
+	bottom: 10px;
+	margin-top: -30px;
+}
+.piggybank > .goal{
+	float: right;
+	margin-right: 10px;
+	margin-top: 30px;
+}
