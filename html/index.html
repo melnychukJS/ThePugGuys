@@ -25,22 +25,17 @@
 		<div class="piggybank">
 			<span class="saved">You are 20€ of reaching your goal!</span>
 			<div class="piggy">
-				<div class="amount"><span class="odometer odometer-theme-car odometer-animating-up odometer-animating" id="value">0</span>% complete!</div>
+				<div class="amount"><span class="odometer" id="value">0</span>% complete!</div>
 			</div>
 			<span class="goal">Your goal: <b>20.000€</b></span>
 		</div>
 		<script>
-
-			var el = document.querySelector('#value');
-
-			od = new Odometer({
-			  el: el,
-			  value: 35,
-
-			  // Any option (other than auto and selector) can be passed in here
-			  format: '',
+			document.addEventListener("DOMContentLoaded", function(){
+				var odometer = document.querySelector('#value');
+				setTimeout(function(){
+					odometer.innerHTML = 55;
+				}, 100);
 			});
-
 		</script>
 	</body>
 </head>
