@@ -27,8 +27,8 @@
 			<div class="pure-u-5-5 border_bottom menu_button"><a href="#"><span class="float_left"><p>HELP</p></span><span class="float_right"><p>></p></span ></a></div>
 		</div>
 		<div class="pure-g div_at_bottom">
-			<div class="pure-u-5-5 border_bottom menu_button"><span><p>STOP SAVING</p></span></div>
-			<div class="pure-u-5-5 border_bottom menu_button"><span><p>LOG OUT</p></span></div>
+			<div class="pure-u-5-5 border_bottom border_top upper_button"><span><p class="text_on_buttons">STOP SAVING</p></span></div>
+			<div class="pure-u-5-5 border_bottom border_top lower_button"><span><p class="text_on_buttons">LOG OUT</p></span></div>
 		</div>
 	</body>
 	<style>
@@ -40,6 +40,11 @@
 		.border_bottom{
 		border-bottom: 1px solid black;
 		}
+		
+		.border_top{
+		border-top: 1px solid black;
+		}
+		
 		.menu_button{
 		padding-left:10%;
 		padding-right:10%;
@@ -53,9 +58,24 @@
 		.div_at_bottom{
 		width:100%;
 		position:fixed;
-		bottom:0;
-		border-top:1px solid black;
+		bottom:9.5%;
 		}
+		
+		.lower_button{
+		margin-top:7%;
+		}
+		
+		.lower_button, .upper_button{
+		width:70%;
+		border-left:1px solid black;
+		border-right:1px solid black;
+		margin-left:auto;
+		margin-right:auto;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 100%;
+		}
+		
 
 	</style>
 	<script>
