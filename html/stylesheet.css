@@ -1,6 +1,15 @@
 *{
 	font-family: 'Varela Round', sans-serif;
 }
+.icon > img{
+	width: 40px;
+}
+.menu{
+	height: 60px;
+}
+.settings-icon > img{
+	margin-top: -6px;
+}
 .menu > div{
 	background-color: #299C97;
 }
@@ -11,6 +20,14 @@
 .menu a:visited{
 	text-decoration: none;
 	color: white;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:visited{
+	text-decoration: none;
+	color: black;
 }
 .menu{
 	text-align: center;
@@ -23,9 +40,9 @@
 }
 .piggybank > .piggy{
 	margin-left: 10px;
-	margin-top: 50px;
+	margin-top: -22px;
 	width: 320px;
-	height: 300px;
+	height: 301px;
 	background-image: url(pig.png);
 	background-size: 320px;
 	background-repeat: no-repeat;
@@ -35,22 +52,28 @@
 }
 .piggy > .amount{
 	position: relative;
-	top: 40%;
+	top: 36%;
 
 }
+.piggybank{
+	text-align: center;
+}
 .piggybank > .saved{
-	float: right;
-	margin-right: 10px;
 	bottom: 10px;
-	margin-top: -30px;
+	font-size: 22px;
+	margin-top: 30px;
 }
 .piggybank > .goal{
-	float: right;
 	margin-right: 10px;
+	font-size: 22px;
 	margin-top: 30px;
 }
 .goal > b{
 	color: #E0951A;
+	font-size: 26px;
+}
+.hammer{
+	width: 30px;
 }
 .table{
 	text-align: center;
@@ -68,4 +91,35 @@
 }
 #value{
 	color: rgb(6, 108, 104);
+}
+.background{
+	padding-top: 40px;
+	/*background-color: #f5f5f5;*/
+}
+.saved > b{
+	color: #066c68;
+	font-size: 26px;
+}
+
+.border_bottom{
+	border-bottom: 1px solid rgba(74, 74, 74, 0.14)
+}
+.brownie{
+	color: #4a4a4a;
+}
+.menu_button{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.float_left{
+	float: left;
+}
+.float_right{
+	float: right;
+}
+.div_at_bottom{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid rgba(74, 74, 74, 0.14);
 }
