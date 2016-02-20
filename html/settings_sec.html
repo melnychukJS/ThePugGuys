@@ -28,10 +28,11 @@
 		    </div>
 		</div>
 		<div class="pure-g">
-			<div class="pure-u-5-5 border_bottom menu_button"><span class="float_left"><p>€1 - €5</p></span><span class="float_right"><p>5%</p></span></div>
-			<div class="pure-u-5-5 border_bottom menu_button"><span class="float_left"><p>€6 - €10</p></span><span class="float_right"><p>3%</p></span></div>
-			<div class="pure-u-5-5 border_bottom menu_button"><span class="float_left"><p>€11 - €40</p></span><span class="float_right"><p>2%</p></span></div>
-			<div class="pure-u-5-5 border_bottom menu_button"><span class="float_left"><p>€41 - €90</p></span><span class="float_right"><p>1%</p></span ></div>
+			
+			<div class="pure-u-5-5 border_bottom menu_button"><span class="float_left"><p><input type="radio" id="one_to_five" name="one_to_five" value="1_5">€1 - €5</p></span><span class="float_right"><p>5%</p></span></div>
+			<div class="pure-u-5-5 border_bottom menu_button"><span class="float_left"><p><input type="radio" id="six_to_ten" name="six_to_ten" value="1_5">€6 - €10</p></span><span class="float_right"><p>3%</p></span></div>
+			<div class="pure-u-5-5 border_bottom menu_button"><span class="float_left"><p><input type="radio" id="eleven_to_forty" name="eleven_to_forty" value="1_5">€11 - €40</p></span><span class="float_right"><p>2%</p></span></div>
+			<div class="pure-u-5-5 border_bottom menu_button"><span class="float_left"><p><input type="radio" id="forty_one_to_ninety" name="forty_one_to_ninety" value="1_5">€41 - €90</p></span><span class="float_right"><p>1%</p></span ></div>
 		</div>
 		<div class="pure-g div_at_bottom">
 			<div class="pure-u-5-5 div_in_div_at_bottom">
@@ -134,6 +135,11 @@
 			bottom:13%;
 			left:50%;
 			transform:translateX(-50%);
+		}
+		
+		#one_to_five, #six_to_ten, #eleven_to_forty, #forty_one_to_ninety{
+		display:inline;
+		margin-right:10px;
 		}
 
 		
