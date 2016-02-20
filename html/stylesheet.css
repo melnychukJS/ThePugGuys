@@ -126,13 +126,37 @@ a:visited{
 .card{
 	float: left;
 	width: 100%;
-	height: 40px;
-	border-bottom: 1px solid #4a4a4a;
+	height: 50px;
+	border-bottom: 1px solid rgba(74, 74, 74, 0.16);
 	text-align: center;
+	line-height: 50px;
+}
+.card > img{
+	float: right;
+	width: 30px;
+	margin-top: 15px;
+	margin-right: 15px;
 }
 .dashit{
- width: 94%;
- border-bottom: 1px dashed #4a4a4a;
- margin-top: 5px;
- margin-left: 10px;
+  	border-bottom: 1px dashed rgba(74, 74, 74, 0.16);
+	float: left;
+	width: 96%;
+	margin-top: 5px;
+	margin-left: 6px;
+}
+.elaborated{
+	border: 1px solid #4a4a4a;
+	-webkit-border-radius: 5px;
+	margin: 10px;
+	width: 94%;
+	height: 170px !important;
+}
+.percentage{
+	width: 80%;
+	background-color: #066c68;
+	color: white;
+	margin-left: 30px;
+	-webkit-border-radius: 995px;
+	height: 30px;
+	line-height: 30px;
 }
