@@ -24,12 +24,14 @@
 .piggybank > .piggy{
 	margin-left: 10px;
 	margin-top: 50px;
-	width: 300px;
+	width: 320px;
 	height: 300px;
-	border: 1px solid black;
-	-webkit-border-radius: 99999px;
+	background-image: url(pig.png);
+	background-size: 320px;
+	background-repeat: no-repeat;
 	text-align: center;
 	font-size: 40px;
+	background-position-y: 52px;
 }
 .piggy > .amount{
 	position: relative;
@@ -63,4 +65,7 @@
 }
 .pure-table{
 	border: none !important;
+}
+#value{
+	color: rgb(6, 108, 104);
 }
