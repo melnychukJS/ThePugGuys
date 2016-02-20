@@ -131,8 +131,8 @@ a:visited{
 	text-align: center;
 }
 .dashit{
- width: 90%;
- border-bottom: 1px solid #4a4a4a;
- border-style: dashed;
+ width: 94%;
+ border-bottom: 1px dashed #4a4a4a;
  margin-top: 5px;
+ margin-left: 10px;
 }
