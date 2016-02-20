@@ -6,6 +6,9 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 		<link rel="stylesheet" href="stylesheet.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+		<script src="script.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<div class="menu pure-g">
@@ -19,8 +22,53 @@
 		    	<p><a href="settings.html">Settings</a></p>
 		    </div>
 		</div>
-		<div class="graph">
-			le graph
+		<div class="statistics">
+			<canvas class="graph" id="myChart" width="320px" height="200px"></canvas>
+			<div class="table">
+				<span class="title">Past transactions</span>
+				<table class="real-table pure-table">
+				    <thead>
+				        <tr>
+				            <th>Ref</th>
+				            <th>Date</th>
+				            <th>€</th>
+				            <th>Saved</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr>
+				            <td>Post-its</td>
+				            <td>16:23</td>
+				            <td>4</td>
+				            <td>0.1</td>
+				        </tr>
+				        <tr>
+				            <td>Pens</td>
+				            <td>16:01 </td>
+				            <td>43</td>
+				            <td>1.5</td>
+				        </tr>
+				        <tr>
+				            <td>Cookie</td>
+				            <td>14:34</td>
+				            <td>6</td>
+				            <td>0.3</td>
+				        </tr>
+								<tr>
+				            <td>Froosh</td>
+				            <td>13:21</td>
+				            <td>3</td>
+				            <td>0.3</td>
+				        </tr>
+								<tr>
+				            <td>Laptop case</td>
+				            <td>12:34</td>
+				            <td>60</td>
+				            <td>10</td>
+				        </tr>
+				    </tbody>
+				</table>
+			</div>
 		</div>
 	</body>
 </head>
